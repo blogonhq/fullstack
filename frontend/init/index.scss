@@ -1,0 +1,20 @@
+$size-md: 720px;
+$size-xl: 1200px;
+$layout-spacing: 1rem;
+
+@import "node_modules/spectre.css/src/spectre";
+
+body {
+  background-color: #F2F2F2;
+  font-family: 'Montserrat', sans-serif;
+  color: #000 !important;
+}
+
+h1 {
+  font-weight: 900;
+  font-size: 26px;
+}
+
+.text-dark {
+  color: #000 !important;
+}

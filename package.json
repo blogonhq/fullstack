@@ -1,0 +1,60 @@
+{
+  "name": "template",
+  "private": true,
+  "dependencies": {
+    "@rails/webpacker": "^4.0.7",
+    "node.normalize.scss": "^3.0.3",
+    "spectre.css": "^0.5.8"
+  },
+  "scripts": {
+    "lint-staged": "$(yarn bin)/lint-staged"
+  },
+  "lint-staged": {
+    "config/webpack/**/*.js": [
+      "prettier --write",
+      "eslint",
+      "git add"
+    ],
+    "frontend/**/*.js": [
+      "prettier --write",
+      "eslint",
+      "git add"
+    ],
+    "frontend/**/*.css": [
+      "prettier --write",
+      "stylelint --fix",
+      "git add"
+    ]
+  },
+  "pre-commit": [
+    "lint-staged"
+  ],
+  "devDependencies": {
+    "autoprefixer": "^9.5.0",
+    "babel-core": "^6.26.3",
+    "babel-eslint": "^10.0.1",
+    "babel-loader": "^8.0.5",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-es2015": "^6.24.1",
+    "cssnano": "^4.1.10",
+    "eslint": "^5.15.1",
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-config-prettier": "^4.1.0",
+    "eslint-import-resolver-webpack": "^0.11.0",
+    "eslint-plugin-import": "^2.16.0",
+    "eslint-plugin-prettier": "^3.0.1",
+    "html-loader": "^0.5.5",
+    "lint-staged": "^8.1.5",
+    "postcss-cssnext": "^3.1.0",
+    "postcss-import": "^12.0.1",
+    "postcss-loader": "^3.0.0",
+    "pre-commit": "^1.2.2",
+    "prettier": "^1.16.4",
+    "stylelint-config-standard-scss": "^1.0.1",
+    "stylelint-scss": "^3.5.4",
+    "sugarss": "^2.0.0",
+    "ts-loader": "^5.3.3",
+    "typescript": "^3.3.3333",
+    "webpack-dev-server": "^3.2.1"
+  }
+}
