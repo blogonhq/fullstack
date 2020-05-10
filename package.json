@@ -4,7 +4,8 @@
   "dependencies": {
     "@rails/webpacker": "^4.0.7",
     "node.normalize.scss": "^3.0.3",
-    "spectre.css": "^0.5.8"
+    "spectre.css": "^0.5.8",
+    "yarn": "^1.22.4"
   },
   "scripts": {
     "lint-staged": "$(yarn bin)/lint-staged"

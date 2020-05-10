@@ -26,11 +26,9 @@ module Template
     # Don't auto generate default files.
     config.generators.system_tests = nil
     config.generators do |g|
-      g.system_tests    = nil
-      g.test_framework  false
-      g.stylesheets     false
-      g.javascripts     false
-      g.helper          false
+      g.test_framework  = nil
+      g.assets          = nil
+      g.helper          = nil
       g.channel         assets: false
     end
   end
