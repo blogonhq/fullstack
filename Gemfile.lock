@@ -185,7 +185,7 @@ DEPENDENCIES
   rspec-rails
   spring
   spring-watcher-listen (~> 2.0, >= 2.0.1)
-  webpacker
+  webpacker (~> 5.x)
 
 RUBY VERSION
    ruby 2.7.1p83

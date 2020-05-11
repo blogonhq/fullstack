@@ -24,11 +24,14 @@ module Template
     config.load_defaults 5.2
 
     # Don't auto generate default files.
-    config.generators.system_tests = nil
+    # config.generators.system_tests = nil
+
     config.generators do |g|
-      g.test_framework  = nil
       g.assets          = nil
+
+      g.test_framework  = nil
       g.helper          = nil
+
       g.channel         assets: false
     end
   end

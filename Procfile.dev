@@ -1,2 +1,2 @@
-server: bin/rails server -p 3000
+server: bin/rails server
 assets: bin/webpack-dev-server

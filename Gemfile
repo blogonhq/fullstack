@@ -9,7 +9,7 @@ gem 'pg', '~> 1.2', '>= 1.2.3'
 gem 'puma', '~> 4.3', '>= 4.3.3'
 
 # Frontend
-gem 'webpacker'
+gem 'webpacker', '~> 5.x'
 
 # Use Redis adapter to run Action Cable in production
 # gem 'redis', '~> 4.0'
