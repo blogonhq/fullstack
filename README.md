@@ -9,7 +9,7 @@ This is a base `rails 6` template, based on view components for easiter fullstac
 ## Ah, What's inside?
 
 ### FE
-It's shipped with the essential tools/files to set you up quickly chceck [packages.json](/blob/master/package.json) for hints.
+It's shipped with the essential tools/files to set you up quickly chceck [packages.json](/package.json) for hints.
 
 ### BE
 Rails 6, postgresql and puma. It also depends on `ruby 2.7.1`.
