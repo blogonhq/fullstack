@@ -5,7 +5,6 @@
     "@rails/webpacker": "5.1.1",
     "node.normalize.scss": "^3.0.3",
     "normalize.css": "^8.0.1",
-    "spectre.css": "^0.5.8",
     "yarn": "^1.22.4"
   },
   "scripts": {
