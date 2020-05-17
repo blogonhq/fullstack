@@ -39,7 +39,6 @@ default: &default
     - .sass
     - .scss
     - .css
-    - .pcss
     - .module.sass
     - .module.scss
     - .module.css

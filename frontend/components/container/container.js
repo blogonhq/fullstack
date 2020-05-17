@@ -1,1 +1,1 @@
-import "./container.scss";
+import "./container.css";

@@ -1,6 +1,4 @@
 // Entry point
-import "./application.pcss";
-
 import "init";
 
 import "components/header/header";
