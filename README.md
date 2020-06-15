@@ -4,7 +4,7 @@ Inspired by [evilmartians' frontend](https://evilmartians.com/chronicles/evil-fr
 
 
 ## What?
-This is a base `rails 6` template, based on view components for easiter fullstack development.
+This is a base `rails 6` template, based on view components for easier fullstack development.
 
 ## Ah, What's inside?
 
