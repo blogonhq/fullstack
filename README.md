@@ -14,11 +14,24 @@ It's shipped with the essential tools/files to set you up quickly chceck [packag
 ### BE
 Rails 6, postgresql and puma. It also depends on `ruby 2.7.1`.
 
+#### Usage of the `component` generator command
+You can do it like this:
+
+```
+  → rails g component aricle-body
+
+  Running via Spring preloader in process 53004
+        create  frontend/components/aricle-body/_aricle-body.html.erb
+        create  frontend/components/aricle-body/aricle-body.css
+        create  frontend/components/aricle-body/aricle-body.js
+        append  frontend/packs/application.js
+```
+
 # I want to change my App name
 `/config/application.rb` then change the `module Template` to `module MyNewFancyApp` and you are good to go.
 
 # Is it up to date?
-To the day: `May 17, 2020` Yes, it's for now up to date.
+To the day: `June 21, 2020` Yes, it's for now up to date.
 
 # Thanks?
-You are wlecome bruh.
+You are welcome bruh.
