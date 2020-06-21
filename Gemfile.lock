@@ -175,17 +175,17 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  bootsnap (~> 1.4, >= 1.4.6)
+  bootsnap
   byebug
   factory_bot
-  listen (~> 3.2, >= 3.2.1)
-  pg (~> 1.2, >= 1.2.3)
-  puma (~> 4.3, >= 4.3.3)
+  listen
+  pg
+  puma
   rails
   rspec-rails
   spring
-  spring-watcher-listen (~> 2.0, >= 2.0.1)
-  webpacker (~> 5.x)
+  spring-watcher-listen
+  webpacker
 
 RUBY VERSION
    ruby 2.7.1p83

@@ -5,11 +5,11 @@ ruby '2.7.1'
 
 # Webserver/DB
 gem 'rails'
-gem 'pg', '~> 1.2', '>= 1.2.3'
-gem 'puma', '~> 4.3', '>= 4.3.3'
+gem 'pg'
+gem 'puma'
 
 # Frontend
-gem 'webpacker', '~> 5.x'
+gem 'webpacker'
 
 # Use Redis adapter to run Action Cable in production
 # gem 'redis', '~> 4.0'
@@ -23,7 +23,7 @@ gem 'webpacker', '~> 5.x'
 # gem 'capistrano-rails', group: :development
 
 # Reduces boot times through caching; required in config/boot.rb
-gem 'bootsnap', '~> 1.4', '>= 1.4.6', require: false
+gem 'bootsnap',  require: false
 
 group :development, :test do
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
@@ -32,7 +32,7 @@ group :development, :test do
 end
 
 group :development do
-  gem 'listen', '~> 3.2', '>= 3.2.1'
+  gem 'listen'
   gem 'spring'
-  gem 'spring-watcher-listen', '~> 2.0', '>= 2.0.1'
+  gem 'spring-watcher-listen'
 end
