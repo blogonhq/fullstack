@@ -30,6 +30,9 @@ You can do it like this:
 # I want to change my App name
 `/config/application.rb` then change the `module Template` to `module MyNewFancyApp` and you are good to go.
 
+# Easily installing templates
+By using [Rails Bytes](https://railsbytes.com/public/templates) you can easily charge up your app 
+
 # Is it up to date?
 To the day: `June 21, 2020` Yes, it's for now up to date.
 
