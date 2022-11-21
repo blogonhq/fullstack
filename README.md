@@ -18,12 +18,12 @@ Rails 6, postgresql and puma. It also depends on `ruby 2.7.1`.
 You can do it like this:
 
 ```
-  → rails g component aricle-body
+  → rails g component article-body
 
   Running via Spring preloader in process 53004
-        create  frontend/components/aricle-body/_aricle-body.html.erb
-        create  frontend/components/aricle-body/aricle-body.css
-        create  frontend/components/aricle-body/aricle-body.js
+        create  frontend/components/article-body/_article-body.html.erb
+        create  frontend/components/article-body/article-body.css
+        create  frontend/components/article-body/article-body.js
         append  frontend/packs/application.js
 ```
 
